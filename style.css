@@ -1,0 +1,84 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+h1,
+ul {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+li {
+  color: grey;
+  display: inline;
+  cursor: pointer;
+}
+li:hover {
+  color: white;
+}
+.box {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  display: inline-block;
+  width: 220px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 7%;
+}
+.product {
+  text-align: center;
+}
+h3 {
+  background-color: black;
+  color: white;
+  display: inline;
+  cursor: pointer;
+}
+h3:hover {
+  color: blue;
+}
+h4 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.table-items {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    margin-top: 12px;
+    outline: none;
+    border: none;
+    padding: 20px 60px;
+    background-color: yellow;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+ .form-container > form {
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px 0;
+     
+    */
+    gap: 20px;
+}
+
+label {
+    color: white;
+}
+
+.btn:hover {
+    background-color: lightgreen;
+}
